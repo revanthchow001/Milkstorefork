@@ -33,7 +33,7 @@ namespace MilkStore.Controllers
         [HttpPost]
         public IActionResult Login(string username,string password)
         {
-            return RedirectToAction("Index","Home");
+            return RedirectToAction("Index","HOME");
         }
 
         public IActionResult Register()
